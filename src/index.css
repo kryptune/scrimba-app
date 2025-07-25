@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px;
+    display: flex;
+    align-content: center;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+
+}
+
+#NavBar {
+    display: flex;
+    width: 550px;
+    height:91px;
+    background-color: #21222A;
+    align-items: center;
+    padding: 27px;
+}
+
+#icon {
+  width: 28px;
+  height: 25px;
+  margin-right: 7px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #61DAFB;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h4 {
+  color: white;
+  font-weight: 600;
+
+}
+
+#main-el {
+  background-color: #282D35;
+  padding: 27px;
+  height: 459px;
+  background-image: url(./public/icon2.png);
+  background-repeat: no-repeat;
+  background-position: right 55%;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 37px;
+  letter-spacing: -0.05em;
+  font-weight: bold;
+  color: white;
+}
+
+.my-list {
+  font-size: 15px;
+  color: #FFFFFF;
+  width: 390px;
+  height: 190px;
+  margin-left: 7px;
+}
+
+.my-list li{
+  margin-bottom: 10px;
+}
+
+.my-list li::marker {
+  color: #61DAFB;
+  font-size: 27px;
+}
+
