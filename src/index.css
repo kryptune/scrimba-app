@@ -10,8 +10,6 @@ body {
 }
 
 .container {
-  width: 550px;
-  height: 550px;
   border: 2px solid black;
 
 }
@@ -52,6 +50,7 @@ main {
     flex: 1 1 auto;
     background-color: white;
     color: #2B283A;
+    width: 550px;
 }
 
 main.dark {
