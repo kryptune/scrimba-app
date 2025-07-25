@@ -1,6 +1,6 @@
 import React from "react"
-import Navbar from "./components/Navbar"
-import Main from "./components/Main"
+import Navbar from "./Components/Navbar"
+import Main from "./Components/Main"
 
 export default function App() {
     const [darkMode, setDarkMode] = React.useState(false)
